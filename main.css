@@ -142,14 +142,14 @@ ease;
 .sdy-btn:hover {
     background-color: #003366;
     color: #ffffff;
-     transition: all 0.3s 
+    transition: all 0.3s 
 ease;
 }
 
 .hero-image{
     width: 400px;
     height: 400px;
-    background-color: #ddd;
+    /* background-color: #ddd; */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -157,8 +157,9 @@ ease;
     flex-direction: column;
     color: #666;
     border: 8px soid #f4f7f6;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+    margin-bottom: 250px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);  */
+} 
 
 .skills_sect{
     padding: 80px 10%;
@@ -211,12 +212,15 @@ ease;
 ease;
 }
 
-.cards:hover {
+.cards:hover  {
     transform: translateY(-10px);
     background-color: #003366;
-    color: #ddd;
     transition: all 0.3s 
 ease;
+}
+
+.cards:hover h3 {
+    color: white;
 }
 
 .skill-tags span {
@@ -288,11 +292,20 @@ footer h2 {
     background-color: #f4f7f6;
 }
 
-.number {
+
+.connect {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
+.abuja {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
+.number {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
